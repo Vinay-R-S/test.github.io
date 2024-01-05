@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Baloo+Bhai+2:wght@500&family=Poppins:wght@600&family=Ubuntu&display=swap');
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2','Poppins','Ubuntu', 'Albert Sans',sans-serif;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("images/4kpic8.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    height: 80%;
+    padding: 20px;
+    text-align: center;
+}
+#head{
+    text-shadow: 4px 4px black;
+    margin-top: -10px;
+    font-size: 100px;
+}
+#mail{
+    text-shadow: 4px 4px black;
+    margin-top: -30px;
+    font-size: 40px;
+}
+#pass{
+    text-shadow: 4px 4px black;
+    margin-top: -30px;
+    font-size: 40px;
+}
+.subbox{
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 0px;
+    width: 400px;
+    height: 40px;
+}
+#but{
+    border-radius: 20px;
+}
+#submit{
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+}

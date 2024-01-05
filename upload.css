@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Baloo+Bhai+2:wght@500&family=Poppins:wght@600&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins','Ubuntu', 'Albert Sans', 'Baloo Bhai 2', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+#head{
+    color: aliceblue;
+    text-align: center;
+    font-size: 150px;
+    text-shadow: 5px 5px rgb(194, 0, 194);
+}
+#container{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(194, 0, 194);
+}
+#name,#mail{
+    margin: 5px;
+    font-size: 20px;
+    height: 30px;
+    width: 270px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#file{
+    margin: 5px;
+    font-size: 20px;
+    height: 30px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.submit{
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    width: 150px;
+}
+#but{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+}

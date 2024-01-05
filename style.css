@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Baloo+Bhai+2:wght@500&family=Poppins:wght@600&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins','Ubuntu', 'Albert Sans', 'Baloo Bhai 2', sans-serif;
+}
+#head_name{
+    text-align: center; 
+    margin: 100px;
+    display: inline;
+    font-size: 110px;
+    font-weight: 900;
+    color: rgb(194, 0, 194);  
+    text-shadow: 4px -2px 4px rgb(0, 255, 234);
+}
+#logo{
+    box-shadow: 4px -4px rgb(194, 0, 194);
+    position: relative;
+    top: 20px;
+    left: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+.nav{
+    border: 0px 1px solid white;
+    /* position: sticky;
+    top: 0px; */
+    border: 2px solid white;
+}
+/* Navbar container */
+.navbar {
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #000000;
+}
+  
+  /* Links inside the navbar */
+.navbar a {
+    background-color: #000000;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 18px;
+    background-color: #000000;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+}
+  
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black; /* rgba(255, 255, 255, 0.2) */
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: #333;
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hr{
+    height: 0.5px;
+    background-color: rgb(171, 171, 171);
+}
+.navobj:hover{
+    color: rgb(255, 0, 144);
+}
+#para1{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+}
+#backimg{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    opacity: 0.3;
+    filter: brightness(1.5);
+}
+.head{
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(194, 0, 194);  
+    text-shadow: 4px -2px 4px rgb(0, 255, 234);
+}
+#pic1{
+    margin: 25px;
+    height: 500px;
+    width: 900px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: inline;
+}
+#pic2{
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 25px;
+}
+#pic3{
+    margin-left: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 95vw;
+    margin-bottom: 20px;
+}
+#form{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+.f,.up{
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+.h1{
+    padding: 10px;
+    display: inline-block;
+}
+#wpp{
+    display: flex;
+    justify-content: space-evenly;
+}
+.span{
+    padding: 5px;
+    border: 2px solid white;
+    height: 20vw;
+    width: 32vw;
+}
+.pic4k{
+    padding: 5px;
+    border: 2px solid white;
+    height: 18vw;
+    width: 30vw;
+}
+
+#wpp{
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 10px;
+}
+#wppm{
+    overflow-x: scroll;
+}
+.submit{
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    height: 60px;
+    width: 180px;
+    color: #000000;
+    text-shadow: 0.5px 0.5px black;
+    background-color: rgb(255, 255, 255);
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic4k{
+    border-radius: 15px;
+    margin: 8px;
+}
+.pic4k:hover {
+    transform: scale(1.05); /* Change the scale factor as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    background-color: white;
+}
+.lbox{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #272d37;
+    height: 342px;
+}
+.button{
+    font-size: 15px;
+    position: relative;
+    top: -45px;
+    left: 270px;
+    border: 1px solid white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+.dwd{
+    width: 120px;
+}
+.like:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 144);
+}
+.dwd:hover{
+    color: rgb(43, 253, 253);
+}
+.mpic{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 680px;
+    width: 373.5px;
+}
+.mpic:hover {
+    transform: scale(1.025); /* Change the scale factor as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.mbox{
+   border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: #333;
+    height: 725px;
+}
+.mdwd{
+    width: 130px;
+    position: relative;
+    top: -35px;
+    left: 70px;
+}
+.mlike{
+    position: relative;
+    top: -35px;
+    left: 75px;
+}
+.mlike:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 144);
+}
+.mdwd:hover{
+    color: rgb(43, 253, 253);
+}
+.inline{
+    display: flex;
+}
+.con{
+    margin-top: -60px;
+    display: flex;
+    padding-left: 35vw;
+}
+.a{
+    position: relative;
+}
+#insta{
+    margin-top: -5px;
+    height: 50px;
+    width: 50px;
+}
+#gmail{
+    margin-top: -5px;
+    padding-left: 200px;
+    height: 50px;
+    width: 50px;
+}
+.h2{
+    display: inline;
+    position: absolute;
+}
+#head1{
+    margin-top:70px;
+    margin-left: 20px;
+    display: inline;
+    font-size: 60px;
+}
